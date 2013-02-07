@@ -177,7 +177,7 @@ function bg_delete_metadata_single($meta_type, $object_id, $meta_key, $delete_al
  * @param string $meta_key Optional. Metadata key. If not specified, retrieve all metadata for
  *    the specified object.
  *
- * @return string metadata value
+ * @return string|array metadata value
  */
 function bg_get_metadata_single($meta_type, $object_id, $meta_key = '')
 {
