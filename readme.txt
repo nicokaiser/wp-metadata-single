@@ -83,6 +83,9 @@ Returns true of the key is set, false if not.
 
 == Changelog ==
 
+= 1.1.1 =
+* [fixed] Fix output format when getting all metadata for an object
+
 = 1.1.0 =
 * [added] Delete metadata if post/comment/user is deleted
 

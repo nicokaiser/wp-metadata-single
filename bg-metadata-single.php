@@ -3,7 +3,7 @@
 Plugin Name: BG Single Metadata API
 Plugin URI: https://github.com/godmodelabs/wp-metadata-single
 Description: Implement a way to retrieve and manipulate metadata of WordPress objects which are unique by key (unlike the default WordPress metadata behavior)
-Version: 1.1.0
+Version: 1.1.1
 Author: Nico Kaiser
 Author URI: http://www.boerse-go.ag
 */

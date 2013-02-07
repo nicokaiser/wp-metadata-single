@@ -198,7 +198,7 @@ function bg_get_metadata_single($meta_type, $object_id, $meta_key = '')
     return $meta_cache;
 
   if (isset($meta_cache[$meta_key])) {
-    return maybe_unserialize($meta_cache[$meta_key][0]);
+    return maybe_unserialize($meta_cache[$meta_key]);
   }
 
   return '';
@@ -289,11 +289,9 @@ function _bg_update_meta_single_cache($meta_type, $object_ids)
       // Force subkeys to be array type:
       if (!isset($cache[$mpid]) || !is_array($cache[$mpid]))
         $cache[$mpid] = array();
-      if (!isset($cache[$mpid][$mkey]) || !is_array($cache[$mpid][$mkey]))
-        $cache[$mpid][$mkey] = array();
 
       // Add a value to the current pid/key:
-      $cache[$mpid][$mkey][] = $mval;
+      $cache[$mpid][$mkey] = $mval;
     }
   }
 
