@@ -63,7 +63,7 @@ Retrieve metadata for the specified object.
 Returns the metadata value or ''
 
 
-= bg_metadata_single_exists($meta_type, $object_id, $meta_key) =
+= bg_metadata_single_exists( $meta_type, $object_id, $meta_key ) =
 
 Determine if a meta key is set for a given object
 
